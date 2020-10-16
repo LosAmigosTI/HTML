@@ -64,7 +64,7 @@ a {
     position: relative;
     color: transparent;
     animation: revelecao_texto 1s ease forwards;
-    animation-delay: 1.5s;
+    animation-delay: 1.s;
 }
 
 #hero h1:nth-child(1) {
@@ -78,6 +78,7 @@ a {
 #hero h1:nth-child(3) {
     animation: revelecao_texto_nome .5s ease forwards;
     animation-delay: 3s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #hero h1 span {
@@ -121,6 +122,35 @@ a {
 #hero .cta:hover {
     color: white;
     background-color: crimson;
+}
+
+#serrvices {}
+
+#services .services {
+    flex-direction: column;
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+#services .section-title {
+    font-size: 4rem;
+    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-align: center;
+}
+
+#services services-item {
+    text-align: center;
+}
+
+#services .services-titulo span {
+    color: crimson;
 }
 
 
